@@ -102,4 +102,4 @@ This project is developed as part of the Evaluation of the Modern Applications D
 - Fronted:
   * HTML
   * CSS
-  * JavaScipt + JQuery + AJAX
+  * JavaScript + JQuery + AJAX
