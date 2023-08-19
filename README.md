@@ -3,7 +3,7 @@
   Theater Web App with Flask
 </h1>
 <h4 align="center">A theater management and ticket booking system</h5>
-<h6 align="center">Written during my 3 year, 1st semester: <a href="https://www.uc3m.es/bachelor-degree/data-science">Bachelor in Data Science and Engineering</a> </h6>
+<h6 align="center">Written during my MAD-1 Course: <a href="https://www.uc3m.es/bachelor-degree/data-science">Bachelor of Science in Data Science & Applications</a> </h6>
 
 
 <br>
