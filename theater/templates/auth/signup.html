@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <section class='form'>
+        <h2>&nbsp;&nbsp;Sign Up&nbsp;&nbsp;</h2> 
+
+        {% include 'auth/error.html' %}
+
+        <form action="{{ url_for('auth.signup') }}" method="post">
+            
+            <div><label>Email: <input type="email" name="email" placeholder="Enter email..." required/></label></div>
+            <div><label>User name: <input type="text" name="username" placeholder="Enter username..." required/></label></div>
+            <div><label>Password: <input type="password" name="password" placeholder="Enter password..." required/></label></div>
+            <div><label>Repeat password: <input type="password" name="password_repeat" placeholder="Enter password..." required/></label></div>
+            <div>
+                <input type="radio" name="role" value="manager" id="manager" required/><label for="manager">I am a manager</label>
+                <input type="radio" name="role" value="customer" id="customer" required/><label for="customer">I am a customer</label>
+            </div>
+
+            <div><input id="popUp" class='submit' type="submit" value="Sign Up"/></div>
+        </form>
+
+    </section>
+{% endblock %}
