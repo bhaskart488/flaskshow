@@ -18,9 +18,9 @@
 
 
 ## Project Description
-This project is developed as part of the Evaluation of the Web Applications Course at UC3M. 
+This project is developed as part of the Evaluation of the Modern Applications Development Course at IITM BS Degree. 
 
-You can find the [Course Web Site](https://www.it.uc3m.es/jaf/wa/).
+
 
 <a href="ProjectStatement.html">Project Statement</a>: [Movie Theater](https://www.it.uc3m.es/jaf/wa/labs/project/).
 
